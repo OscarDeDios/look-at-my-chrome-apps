@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../css/popup.css" />
+    
+</head>
+<body>
+
+
+
+    
+<div class="container" id="popup_container" >
+
+<form class="form-horizontal" id="form_extensions">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Look at my Chrome Apps</legend>
+
+<!-- Multiple Checkboxes (inline) -->
+<div class="control-group">
+  <label class="control-label" for="form_sharewhat">Share</label>
+  <div class="controls">
+    <label class="checkbox" for="form_sharewhat-0">
+      <input type="checkbox" name="form_sharewhat" id="form_sharewhat-0" value="Apps" >
+      Chrome Apps
+    </label>
+    <label class="checkbox" for="form_sharewhat-1">
+      <input type="checkbox" name="form_sharewhat" id="form_sharewhat-1" value="Extensions">
+      Extensions
+    </label>
+    <label class="checkbox" for="form_sharewhat-2">
+      <input type="checkbox" name="form_sharewhat" id="form_sharewhat-2" value="Themes">
+      Themes
+    </label>
+    <label class="checkbox" for="form_sharewhat-3">
+      <input type="checkbox" name="form_sharewhat" id="form_sharewhat-3" value="Inactive">
+      Even if inactive
+    </label>
+      
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="control-group">
+  <label class="control-label" for="form_selectlist">From list... &nbsp;&nbsp;&nbsp; <small><a href="options.html">(configure)</a></small></label>
+  <div class="controls">
+    <select id="form_selectlist" name="form_selectlist" class="input-xlarge">
+      <option>Everything</option>
+      <option>Last installed</option>
+      <option>Last updated</option>
+      <option>New list</option>
+    </select>
+  </div>
+
+</div>
+
+<!-- Button (Double) -->
+<div class="control-group">
+  <label class="control-label" for="form_button1">Copy as</label>
+  <div class="controls">
+    <button id="form_button1" name="form_button1" class="btn btn-info">Rich-text</button>
+    <button id="form_button2" name="form_button2" class="btn btn-info">HTML</button>
+    <button id="form_button3" name="form_button3" class="btn btn-info">Text <small>(Markdown)</small></button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+
+</div><!-- /.container -->
+
+</body>
+        <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../bower_components/jquery/dist/jquery.min.js" />
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/eventPage.js"></script>
+
+    
+</html>

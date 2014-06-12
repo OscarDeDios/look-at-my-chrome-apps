@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Look At My Chrome Apps!",
+  "version": "1",
+
+  "default_locale": "en",
+  "description": "__MSG_DESCRIPTION__",
+  "icons": {
+    "128": "icon_128.png"
+  },
+    
+    "author": "Jean-Michel Fayard ; YOU ?",
+    
+    "browser_action": {
+          "default_title": "Look at my chrome apps!",
+          "default_popup": "views/popup.html"       
+        },
+    
+  "permissions": [
+      "management",
+      "clipboardWrite",
+      "tabs",
+      "notifications" 
+  ],
+    "background": {
+        "persistant": true,
+        "page":"views/options.html"
+    }
+    
+}
