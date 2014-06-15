@@ -1,4 +1,12 @@
-//
+function open_options_page() {
+  console.log("LAMCH: Opening the options page");
+  var createProperties = { url:"/views/options.html" };
+  chrome.tabs.create(createProperties, callback_options_saved);
+}
+function callback_options_saved() {
+      console.log("LAMCH: Options have been updated!");
+}
+    
 //mychromeapps.window = chrome.extension.getBackgroundPage();
 //
 //chrome.management.getAll(function(extensionInfos) {

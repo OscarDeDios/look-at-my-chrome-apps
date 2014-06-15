@@ -19,48 +19,10 @@
 <fieldset>
 
 <!-- Form Name -->
-<legend>Look at my Chrome Apps</legend>
-
-<!-- Multiple Checkboxes (inline) -->
-<div class="control-group">
-  <label class="control-label" for="form_sharewhat">Share</label>
-  <div class="controls">
-    <label class="checkbox" for="form_sharewhat-0">
-      <input type="checkbox" name="form_sharewhat" id="form_sharewhat-0" value="Apps" >
-      Chrome Apps
-    </label>
-    <label class="checkbox" for="form_sharewhat-1">
-      <input type="checkbox" name="form_sharewhat" id="form_sharewhat-1" value="Extensions">
-      Extensions
-    </label>
-    <label class="checkbox" for="form_sharewhat-2">
-      <input type="checkbox" name="form_sharewhat" id="form_sharewhat-2" value="Themes">
-      Themes
-    </label>
-    <label class="checkbox" for="form_sharewhat-3">
-      <input type="checkbox" name="form_sharewhat" id="form_sharewhat-3" value="Inactive">
-      Even if inactive
-    </label>
-      
-  </div>
-</div>
-
-<!-- Select Basic -->
-<div class="control-group">
-  <label class="control-label" for="form_selectlist">From list... &nbsp;&nbsp;&nbsp; <small><a href="options.html">(configure)</a></small></label>
-  <div class="controls">
-    <select id="form_selectlist" name="form_selectlist" class="input-xlarge">
-      <option>Everything</option>
-      <option>Last installed</option>
-      <option>Last updated</option>
-      <option>New list</option>
-    </select>
-  </div>
-
-</div>
+<legend style="margin-bottom:10px" >Look at my Chrome Apps</legend>
 
 <!-- Button (Double) -->
-<div class="control-group">
+<div class="control-group" style="padding-bottom: 8px;">
   <label class="control-label" for="form_button1">Copy as</label>
   <div class="controls">
     <button id="form_button1" name="form_button1" class="btn btn-info">Rich-text</button>
@@ -69,8 +31,98 @@
   </div>
 </div>
 
+    
+<!-- Multiple Checkboxes (inline) -->
+<div class="control-group" style="padding-bottom: 8px;">
+  <label class="control-label" for="form_sharewhat">Include</label>
+  <div class="controls">
+  <div class="row">
+      <div class="col-xs-6">
+        <label class="checkbox" for="form_sharewhat-0">
+        <input type="checkbox" name="form_sharewhat" id="form_sharewhat-0" value="Apps" checked >
+      Apps
+        </label>
+        </div>
+      <div class="col-xs-6">
+          <label class="checkbox" for="form_sharewhat-1">
+      <input type="checkbox" name="form_sharewhat" id="form_sharewhat-1" value="Extensions" checked >
+      Extensions
+    </label>
+      </div>
+  </div>
+      <div class="row">
+          <div class="col-xs-6">
+                  <label class="checkbox" for="form_sharewhat-2">
+      <input type="checkbox" name="form_sharewhat" id="form_sharewhat-2" value="Themes" checked >
+      Themes
+    </label>
+
+          </div>
+          <div class="col-xs-6">
+    <label class="checkbox" for="form_sharewhat-3">
+      <input type="checkbox" name="form_sharewhat" id="form_sharewhat-3" value="Inactive">
+      Inactive
+    </label>
+      </div>
+    </div>
+    </div>
+</div>
+
+<!-- Multiple Radios -->
+<div class="control-group">
+  <div class="row">
+      <div class="col-xs-8">
+        <label class="control-label" for="list">From list...</label>
+      </div>
+      <div class="col-xs-4" style="padding-top:7px;">
+          <a  href="options.html" onclick="javascript:open_options_page();">(Configure)</a>
+       </div>
+  </div>
+          
+  <div class="col-md-4">
+  <div class="radio">
+    <label for="list-0">
+      <input type="radio" name="list" id="list-0" value="all" checked="checked">
+      Everything
+    </label>
+	</div>
+  <div class="radio">
+    <label for="list-1">
+      <input type="radio" name="list" id="list-1" value="last-installed">
+      Last installed
+    </label>
+	</div>
+  <div class="radio">
+    <label for="list-2">
+      <input type="radio" name="list" id="list-2" value="last-updated">
+      Last updated
+    </label>
+	</div>
+  <div class="radio">
+    <label for="list-4">
+      <input type="radio" name="list" id="list-4" value="">
+      Web developpment
+    </label>
+	</div>
+  <div class="radio">
+    <label for="list-5">
+      <input type="radio" name="list" id="list-5" value="">
+      Graphism
+    </label>
+	</div>
+  </div>
+</div>
+
 </fieldset>
 </form>
+
+
+</div>
+
+
+</fieldset>
+</form>
+</div>
 
 
 </div><!-- /.container -->
