@@ -6,7 +6,8 @@ Share the love about chrome apps & extension with your friends, co-workers, ...
 If you are a Chrome developper, fork the project and install the extension from chrome://extensions . 
 
 If by chance it works, you could see this popup
-![title](_screenshots/LookAtMyChromeApps%202014-07-10%20a%CC%80%2000.56.23.png)
+
+![poup](_screenshots/00%20-%20LookAtMyChromeApps%202014-07-10.png)
 
 Nothing else currently works.
 
