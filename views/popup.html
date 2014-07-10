@@ -25,9 +25,9 @@
 <div class="control-group" style="padding-bottom: 8px;">
   <label class="control-label" for="form_button1">Copy as</label>
   <div class="controls">
-    <button id="form_button1" name="form_button1" class="btn btn-info">Rich-text</button>
-    <button id="form_button2" name="form_button2" class="btn btn-info">HTML</button>
-    <button id="form_button3" name="form_button3" class="btn btn-info">Text <small>(Markdown)</small></button>
+    <button id="form_button1_richtext" name="form_button1" class="btn btn-info">Rich-text</button>
+    <button id="form_button2_html" name="form_button2" class="btn btn-info">HTML</button>
+    <button id="form_button3_markdown" name="form_button3" class="btn btn-info">Text <small>(Markdown)</small></button>
   </div>
 </div>
 
@@ -125,15 +125,17 @@
 </div>
 
 
+<div id="clipboard" contenteditable="true" style="display:none" />
+
 </div><!-- /.container -->
 
 </body>
         <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../bower_components/jquery/dist/jquery.min.js" />
-    <script src="../js/bootstrap.js"></script>
-    <script src="../js/eventPage.js"></script>
+<!--    <script data-main="../js/config" src="../bower_components/requirejs/require.js"></script>-->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../js/popup.js"></script>
 
     
 </html>

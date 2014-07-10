@@ -6,7 +6,7 @@
   "default_locale": "en",
   "description": "__MSG_DESCRIPTION__",
   "icons": {
-    "128": "icon_128.png"
+    "128": "img/icon_128.png"
   },
     
     "author": "Jean-Michel Fayard ; YOU ?",

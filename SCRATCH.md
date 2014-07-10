@@ -19,7 +19,23 @@ Removing those permissions from the manifest.json file
       ]
 ````
 
+## Bower
 
+bower.json
+
+```js
+{
+  "name": "look-at-my-chrome-apps",
+  "version": "0.1",
+  "dependencies": {
+  ...
+    "angular": "~1.2.16",
+    "react": "~0.10.0"
+  }
+}
+```
+ 
+    
 ## Using Angular (or not)
 
 
